@@ -1,0 +1,37 @@
+{
+  "name": "cola",
+  "version": "0.0.1",
+  "description": "A minimal isomorphic library for node",
+  "main": ".",
+  "dependencies": {
+    "alt": "^0.10.2",
+    "express": "^4.11.2",
+    "jade": "^1.9.2",
+    "react": "^0.13.0-beta.1"
+  },
+  "devDependencies": {
+    "babel": "^4.0.1",
+    "babelify": "^5.0.3",
+    "browserify": "^8.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify -t [babelify] client.js > public/js/bundle.js",
+    "start": "babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isekivacernz/cola"
+  },
+  "keywords": [
+    "cola",
+    "coke",
+    "isomorphic",
+    "javascript",
+    "flux",
+    "alt",
+    "react"
+  ],
+  "author": "Steven Iseki <stevenisekimartin@gmail.com>",
+  "license": "MIT"
+}
